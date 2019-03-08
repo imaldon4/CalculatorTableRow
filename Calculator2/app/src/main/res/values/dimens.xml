@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="button_number_width">100dp</dimen>
-    <dimen name="button_number_height">100dp</dimen>
-    <dimen name="button_equals_width">100dp</dimen>
-    <dimen name="button_equals_height">100dp</dimen>
+    <dimen name="button_number_width">70dp</dimen>
+    <dimen name="button_number_height">70dp</dimen>
+    <dimen name="button_equals_width">70dp</dimen>
+    <dimen name="button_equals_height">70dp</dimen>
     <dimen name="button_plus_width">40dp</dimen>
-    <dimen name="button_plus_height">70dp</dimen>
+    <dimen name="button_plus_height">40dp</dimen>
     <dimen name="button_minus_width">40dp</dimen>
     <dimen name="button_minus_height">40dp</dimen>
     <dimen name="button_divide_width">40dp</dimen>
     <dimen name="button_divide_height">40dp</dimen>
     <dimen name="button_multiply_width">40dp</dimen>
     <dimen name="button_multiply_height">40dp</dimen>
-    <dimen name="button_c_width">100dp</dimen>
-    <dimen name="button_c_height">100dp</dimen>
+    <dimen name="button_c_width">70dp</dimen>
+    <dimen name="button_c_height">70dp</dimen>
 </resources>
