@@ -33,7 +33,7 @@
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="1"
+                android:text="@string/button_1"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
@@ -42,7 +42,7 @@
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="2"
+                android:text="@string/button_2"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
@@ -51,16 +51,16 @@
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="3"
+                android:text="@string/button_3"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_zero"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-                android:layout_width="@dimen/button_c_width"
-                android:layout_height="@dimen/button_c_height"
+                android:layout_width="@dimen/button_number_width"
+                android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="0"
+                android:text="@string/button_0"
                 android:textAlignment="center" />
 
         </LinearLayout>
@@ -74,39 +74,40 @@
             android:textAlignment="gravity">
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_one"
+                android:id="@+id/btn_four"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="1"
+                android:text="4"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_two"
+                android:id="@+id/btn_five"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="2"
+                android:text="@string/button_5"
+
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_three"
+                android:id="@+id/btn_six"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="3"
+                android:text="@string/button_6"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_zero"
+                android:id="@+id/btn_period"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-                android:layout_width="@dimen/button_c_width"
-                android:layout_height="@dimen/button_c_height"
+                android:layout_width="@dimen/button_number_width"
+                android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="0"
+                android:text="@string/button_period"
                 android:textAlignment="center" />
 
         </LinearLayout>
@@ -116,43 +117,43 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-                android:orientation="vertical"
+            android:orientation="vertical"
             android:textAlignment="gravity">
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_one"
+                android:id="@+id/btn_seven"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="1"
+                android:text="@string/button_7"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_two"
+                android:id="@+id/btn_eight"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="2"
+                android:text="@string/button_8"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_three"
+                android:id="@+id/btn_nine"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="3"
+                android:text="@string/button_9"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_zero"
+                android:id="@+id/btn_equals"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-                android:layout_width="@dimen/button_c_width"
-                android:layout_height="@dimen/button_c_height"
+                android:layout_width="@dimen/button_number_width"
+                android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="0"
+                android:text="="
                 android:textAlignment="center" />
 
         </LinearLayout>
@@ -166,39 +167,39 @@
             android:textAlignment="gravity">
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_one"
+                android:id="@+id/btn_plus"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="1"
+                android:text="+"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_two"
+                android:id="@+id/btn_minus"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="2"
+                android:text="-"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_three"
+                android:id="@+id/btn_divide"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="@dimen/button_number_width"
                 android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="3"
+                android:text="/"
                 android:textAlignment="center" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_zero"
+                android:id="@+id/btn_multiply"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-                android:layout_width="@dimen/button_c_width"
-                android:layout_height="@dimen/button_c_height"
+                android:layout_width="@dimen/button_number_width"
+                android:layout_height="@dimen/button_number_height"
                 android:gravity="center_vertical"
-                android:text="0"
+                android:text="X"
                 android:textAlignment="center" />
 
         </LinearLayout>
