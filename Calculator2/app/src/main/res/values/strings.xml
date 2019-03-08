@@ -10,4 +10,6 @@
     <string name="button_2">2</string>
     <string name="button_3">3</string>
     <string name="button_0">0</string>
+    <string name="text_answer" />
+    <string name="button_4">4</string>
 </resources>
