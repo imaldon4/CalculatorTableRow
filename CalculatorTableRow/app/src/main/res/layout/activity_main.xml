@@ -21,6 +21,7 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="4"
             android:background="@color/colorView"
             android:gravity="end"
@@ -29,16 +30,20 @@
             android:textStyle="bold" />
     </TableRow>
 
-
     <TableRow
         android:id="@+id/tableRow2"
         android:layout_width="wrap_content"
+
+
         android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="2"
             android:background="@color/colorSpecialButton"
             android:contentDescription="@string/ac_button"
@@ -50,6 +55,10 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/colorOperatorButtons"
             android:contentDescription="@string/button_description_percent"
@@ -61,6 +70,9 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/colorOperatorButtons"
             android:contentDescription="@string/divide_button"
@@ -78,6 +90,9 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/seven_button"
@@ -89,6 +104,10 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/eight_button"
@@ -100,6 +119,10 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/nine_button"
@@ -111,6 +134,9 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/colorOperatorButtons"
             android:contentDescription="@string/multiply_button"
@@ -118,7 +144,6 @@
             android:onClick="goOperator"
             android:text="@string/multiply_button" />
     </TableRow>
-
 
     <TableRow
         android:id="@+id/tableRow4"
@@ -129,6 +154,9 @@
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/four_button"
@@ -140,6 +168,10 @@
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/five_button"
@@ -151,6 +183,10 @@
             android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/six_button"
@@ -162,6 +198,9 @@
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/colorOperatorButtons"
             android:contentDescription="@string/minus_button"
@@ -169,7 +208,6 @@
             android:onClick="goOperator"
             android:text="@string/minus_button" />
     </TableRow>
-
 
     <TableRow
         android:id="@+id/tableRow5"
@@ -180,6 +218,9 @@
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/one_button"
@@ -191,6 +232,10 @@
             android:id="@+id/button13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/two_button"
@@ -202,6 +247,10 @@
             android:id="@+id/button14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/three_button"
@@ -213,6 +262,9 @@
             android:id="@+id/button15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginBottom="@dimen/button_margins"
             android:layout_span="1"
             android:background="@color/colorOperatorButtons"
             android:contentDescription="@string/plus_button"
@@ -230,23 +282,27 @@
             android:id="@+id/button16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margins"
+            android:layout_marginRight="@dimen/button_margins"
             android:layout_span="2"
             android:background="@color/regular_button_color"
             android:contentDescription="@string/zero_button"
             android:minHeight="70dip"
             android:onClick="goOperator"
-            android:text="@string/zero_button"/>
+            android:text="@string/zero_button" />
 
         <Button
             android:id="@+id/button17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margins"
+            android:layout_marginTop="@dimen/button_margins"
             android:layout_span="2"
             android:background="@color/colorSpecialButton"
             android:contentDescription="@string/equals_button"
             android:minHeight="70dip"
             android:onClick="goOperator"
-            android:text="@string/equals_button"/>
+            android:text="@string/equals_button" />
     </TableRow>
 
 </TableLayout>
