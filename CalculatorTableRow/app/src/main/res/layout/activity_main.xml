@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_span="4"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:stretchColumns="0, 1, 2, 3"
     tools:context=".MainActivity">
 
 
@@ -10,39 +16,237 @@
         android:id="@+id/tableRow1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_span="4"
-            android:background="@color/colorAccent"
-            android:gravity="right"
+            android:background="@color/colorView"
+            android:gravity="end"
             android:text="@string/zero_text"
             android:textSize="@dimen/text_size_answer"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
     </TableRow>
 
 
     <TableRow
-        android:layout_width="match_parent"
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="@color/colorSpecialButton"
+            android:contentDescription="@string/ac_button"
+            android:minHeight="70dip"
+            android:onClick="goAC"
+            android:text="@string/ac_button_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/colorOperatorButtons"
+            android:contentDescription="@string/button_description_percent"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/percent_button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/colorOperatorButtons"
+            android:contentDescription="@string/divide_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/divide_button" />
     </TableRow>
 
     <TableRow
+        android:id="@+id/tableRow3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/seven_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/seven_button" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/eight_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/eight_button" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/nine_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/nine_button" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/colorOperatorButtons"
+            android:contentDescription="@string/multiply_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/multiply_button" />
+    </TableRow>
+
 
     <TableRow
+        android:id="@+id/tableRow4"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/four_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/four_button" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/five_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/five_button" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/six_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/six_button" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/colorOperatorButtons"
+            android:contentDescription="@string/minus_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/minus_button" />
+    </TableRow>
+
 
     <TableRow
+        android:id="@+id/tableRow5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/one_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/one_button" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/two_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/two_button" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/three_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/three_button" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:background="@color/colorOperatorButtons"
+            android:contentDescription="@string/plus_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/plus_button" />
+    </TableRow>
 
     <TableRow
+        android:id="@+id/tableRow6"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-    android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="@color/regular_button_color"
+            android:contentDescription="@string/zero_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/zero_button"/>
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="@color/colorSpecialButton"
+            android:contentDescription="@string/equals_button"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/equals_button"/>
+    </TableRow>
+
 </TableLayout>
